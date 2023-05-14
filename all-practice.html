@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container-fluid.cstm-parallax-effect-main-section {
+            padding: 0;
+        }
+
+        .parallax {
+            /* The image used */
+            background-image: url('../images/about-imgtext1.jpg');
+
+            /* Full height */
+            min-height: 500px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Parallax Effect Start -->
+
+    <div class="container-fluid cstm-parallax-effect-main-section">
+        <div class="parallax"></div>
+        <div style="height:1000px;background-color:gray;font-size:36px">
+            Scroll Up and Down this page to see the parallax scrolling effect.
+            This div is just here to enable scrolling.
+            Tip: Try to remove the background-attachment property to remove the scrolling effect.
+        </div>
+        <div class="parallax"></div>
+    </div>
+
+    <!-- Parallax Effect End -->
+
+
+</body>
+
+</html>
